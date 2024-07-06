@@ -1,0 +1,9 @@
+/*in light mode - font = black, border of containers are black*/
+/*in dark mode - font = white*, border of containers are white, submit button white? */
+/*top of the page is an empty container with the dark/light button flexed right, bottom border thick*/
+/*canvas has it's own space 50% of space, flex left, border top and right*/
+/*form is on the right in line with canvas, border top and left form itself is in the middle of that container*/
+/*gap between canvas and form containers*/
+/*when dark/light is toggled, opposite button is hidden*/
+/*submit button needs to take up as much space as the form and be black*/
+
