@@ -20,9 +20,9 @@ ctx.lineWidth = 4;
 ctx.createRadialGradient(150,75,15,150,75,150);
 
 //submit button - take new article and put into current array
-submitBtn.addEventListener("click", parseForm)
+submitBtn.addEventListener("click", validateForm)
 
-function parseForm(event) {
+function parseForm() {
     event.preventDefault();
     const articlesObj = {
         title: titleField.value,
@@ -33,4 +33,12 @@ function parseForm(event) {
     console.log(articles)
     localStorage.setItem("articles", JSON.stringify(articles));
     window.location.href = './blog.html';
+}
+
+function validateForm(event){
+    if (titleField.value == "" || authorField.value == "" || contentField.value == ""){
+        alert("All three fields must be filled out!")
+        return
+    } 
+    parseForm()
 }
