@@ -1,3 +1,5 @@
+public link: https://lothylg.github.io/blog-spot/
+
 GitHub link: https://github.com/lothylg/blog-spot
 
 Screenshots of the page
