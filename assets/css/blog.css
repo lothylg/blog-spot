@@ -7,4 +7,93 @@
 /*footer has border top thick*/
 /*gap between all borders*/
 /*main section with seperators for the "articles" with all of the info inside.*/
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    align-content: center;
+    padding: 20px;
 
+}
+/* header section#toggle button#modeToggle {
+    display: flex;
+    justify-content: flex-end;
+    
+} */
+
+body.toggleLight p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: black;
+}
+
+body.toggleDark p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: white;
+}
+
+body.toggleLight main {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 100vh;
+}
+
+body.toggleDark main {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 100vh;
+}
+body.toggleLight footer {
+    display: flex;
+    justify-content: center;
+    border-top: 4px solid black;
+    margin-top: 3px;
+}
+
+body.toggleDark footer {
+    display: flex;
+    justify-content: center;
+    border-top: 4px solid white;
+    margin-top: 3px;
+}
+
+body main {
+    padding: 5 5 5 5;
+}
+
+body.toggleLight div#card-container #card {
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+body.toggleDark div#card-container #card {
+    border: 2px solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+body.toggleLight div#card-container #card h2 {
+    color: black;
+}
+
+body.toggleDark div#card-container #card h2{
+    color: white;
+}
+
+body.toggleLight div#card-container #card p{
+    color: black;
+}
+
+body.toggleDark div#card-container #card p {
+    color: white;
+}

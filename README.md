@@ -14,3 +14,8 @@ Swapping text in an innerElement: https://www.w3schools.com/jsref/prop_html_id.a
 
 replacing class in an element: https://www.shecodes.io/athena/9423-change-the-class-name-of-an-html-element-with-javascript#:~:text=Access%20the%20classList%20property%20of,with%20the%20new%20class%20name.
 
+creating cards for the articles: https://shadowcoder.medium.com/dynamic-card-rendering-in-javascript-unleashing-the-power-of-flexibility-72e55130b091
+
+local storage: https://www.w3schools.com/jsref/prop_win_localstorage.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+

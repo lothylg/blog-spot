@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuggets of knowledge blog</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/shared.css" />
+    <link rel="stylesheet" href="./assets/css/form.css"/>
 </head>
-<body>
+<body id="fullPage" class="toggleLight">
     <main> 
-        <section id="toggle">
-            <button id="modeToggle" class="toggleLight">Light mode ☀️</button>
-        </section>
-        <section class="circle">
-            <canvas id="gradient" width="500" height="500"> </canvas>
-        </section>
-        <section class="form">
-            <h1> Drop some nuggets on us!</h1>
-            <form id="collect"> 
-                <label for="user"> Author</label> <br>
-                <input type="text" id="user" name ="user"> <br>
-                <label for="title"> Title </label> <br>
-                <input type="text" id="title" name ="title"> <br>
-                <label for="content">Content</label><br>
-                <textarea id="content" name="content" rows="8" cols="50"></textarea><br>
-                <input type="submit">
-            </form>
-        </section>
+        <header>
+            <section id="toggle">
+                <button id="modeToggle" class="toggleLight">Light mode ☀️</button>
+            </section>
+        </header>
+        <section class="content">
+            <section class="circle">
+                <canvas id="gradient" width="500" height="500"> </canvas>
+            </section>
+            <section class="form">
+                <h1> Drop some nuggets on us!</h1>
+                <form id="collect"> 
+                    <label for="title"> Title </label> <br>
+                    <input type="text" id="title" name ="title"> <br>
+                    <label for="author"> Author</label> <br>
+                    <input type="text" id="author" name ="author"> <br>
+                    <label for="content">Content</label><br>
+                    <textarea id="content" name="content" rows="8" cols="50"></textarea><br>
+                    <button type="submit" id="submitBtn">Submit</button>
+                </form>
+            </section>
+    </section>
     </main>
-    <script type="text/javascript" src="./script/script.js" ></script>
+    <script type="text/javascript" src="./script/script.js"></script>
     <script type="text/javascript" src="./script/logic.js"></script>
 </body>
 </html>

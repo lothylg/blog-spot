@@ -6,4 +6,33 @@
 /*gap between canvas and form containers*/
 /*when dark/light is toggled, opposite button is hidden*/
 /*submit button needs to take up as much space as the form and be black*/
+body.toggleLight {
+    background-color: rgb(240, 240, 233);
+}
 
+body.toggleDark {
+    background-color: rgb(33, 28, 28);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: end;
+}
+
+body.toggleLight h1 {
+    color: black;
+}
+
+body.toggDark h1  {
+    color: white;
+}
+
+
+
+body.toggleDark h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+}
