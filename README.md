@@ -14,6 +14,11 @@ https://lothylg.github.io/blog-spot/
 
 ### Screenshots of the final product
 
+![Screen Shot 2024-09-02 at 9 39 38 PM](https://github.com/user-attachments/assets/75e87927-b93a-4761-a2c1-33cde0a86594)
+
+![Screen Shot 2024-09-02 at 9 39 47 PM](https://github.com/user-attachments/assets/e0e2bcde-1239-40aa-ae31-0aa7eeb960fb)
+
+![Screen Shot 2024-09-02 at 9 40 17 PM](https://github.com/user-attachments/assets/48bc086a-72fa-4f08-9a5a-ca30f3e85c35)
 
 
 public link: https://lothylg.github.io/blog-spot/
@@ -21,16 +26,6 @@ public link: https://lothylg.github.io/blog-spot/
 GitHub link: https://github.com/lothylg/blog-spot
 
 Screenshots of the page
-![Screen Shot 2024-07-07 at 11 19 31 PM](https://github.com/lothylg/blog-spot/assets/171598913/66f1891f-9f52-46a5-a5be-275b64c7c8a7)
-
-![Screen Shot 2024-07-07 at 11 19 38 PM](https://github.com/lothylg/blog-spot/assets/171598913/a45b904c-801a-4414-aff6-ce4391019a7b)
-
-
-![Screen Shot 2024-07-07 at 11 19 47 PM](https://github.com/lothylg/blog-spot/assets/171598913/1ebbbc43-2e63-4a00-9a4d-8428ed92e7a5)
-
-
-![Screen Shot 2024-07-07 at 11 19 53 PM](https://github.com/lothylg/blog-spot/assets/171598913/acf6ea9d-c743-48cb-a414-3a6b47d48190)
-
 
 
 
