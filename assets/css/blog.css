@@ -74,12 +74,14 @@ body.toggleLight div#card-container #card {
     border: 2px solid black;
     padding: 5px;
     margin: 10px;
+
 }
 
 body.toggleDark div#card-container #card {
     border: 2px solid white;
     padding: 5px;
     margin: 10px;
+
 }
 
 body.toggleLight div#card-container #card h2 {

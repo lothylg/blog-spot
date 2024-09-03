@@ -1,32 +1,36 @@
 //global scope
-const cardContainer = document.getElementById("card");
-const againBtn = document.getElementById("again");
+//there was a repeated global variable deleted and updated
+const cardContainer = document.querySelector("#card");
+const backBtn = document.querySelector("#again");
 
-let existingArticles = localStorage.getItem('articles');
+// Initialize existingArticles as an array or an empty array if localStorage value is null
+let existingArticles = JSON.parse(localStorage.getItem('articles')) || [];
 
-start();
-//functions
-// console.log(existingArticles)
- function start(){
-    // const existingArticles = localStorage.getItem('articles');
-        if(existingArticles ){
-            articles = JSON.parse(existingArticles);
-            populateArticles();
-        } 
-        // cardContainer.innerHTML = "nothing new yet!"
+// Functions
+function start() {
+    //changed this so it's not just if there is anything at all, just so that it's greater than 0
+    if (existingArticles.length > 0) {
+        populateArticles();
+    } else {
+        //actually create an element that will print
+        const message = document.createElement("p");
+        message.textContent = "Nothing new yet!";
+        cardContainer.appendChild(message);
     }
+}
 
-function populateArticles(){
+//make cards for the individual blog posts
+function populateArticles() {
     cardContainer.innerHTML = "";
-    for ( let i = 0; i < articles.length; i++){
+    for (let i = 0; i < existingArticles.length; i++) {
         const h2Title = document.createElement("h2");
-        h2Title.textContent = articles[i].title;
+        h2Title.textContent = existingArticles[i].title;
 
         const pAuthor = document.createElement("p");
-        pAuthor.textContent = articles[i].author;
+        pAuthor.textContent = existingArticles[i].author;
 
         const pContent = document.createElement("p");
-        pContent.textContent = articles[i].content;
+        pContent.textContent = existingArticles[i].content;
 
         cardContainer.appendChild(h2Title);
         cardContainer.appendChild(pAuthor);
@@ -34,15 +38,17 @@ function populateArticles(){
     }
 }
 
-function updateLocalStorage(){
-    localStorage.setItem("articles", JSON.stringify(articles))
+function updateLocalStorage() {
+    localStorage.setItem("articles", JSON.stringify(existingArticles));
 }
 
-
-//back button
-const blogForm = document.getElementById("again");
-blogForm.addEventListener("click", function(event) {
+// Back button
+//udpated the variable so that it's more clear. 
+backBtn.addEventListener("click", function(event) {
     updateLocalStorage();
     // event.preventDefault();
     window.location.href = './index.html';
-})
+});
+
+// Start up the application
+start();

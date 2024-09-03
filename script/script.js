@@ -22,7 +22,7 @@ ctx.createRadialGradient(150,75,15,150,75,150);
 //submit button - take new article and put into current array
 submitBtn.addEventListener("click", validateForm)
 
-function parseForm() {
+function parseForm(event) {
     event.preventDefault();
     const articlesObj = {
         title: titleField.value,
@@ -40,5 +40,6 @@ function validateForm(event){
         alert("All three fields must be filled out!")
         return
     } 
-    parseForm()
+    window.location.href = './blog.html';
+    parseForm(event)
 }
