@@ -1,4 +1,22 @@
-# blog-spot
+## Title
+Basic blog!
+
+### Description
+This appliation will allow the user to write a blog post and keep track of thoughts. The thoughts are kept within local storage. It is also using javascript to switch themes and updating the inner HTML
+
+### Installation and usage 
+Nothing additional is required to be installed to use this. Use this locally or use the deployed application
+
+### links to the deployed applications
+
+https://github.com/lothylg/blog-spot
+https://lothylg.github.io/blog-spot/
+
+### Screenshots of the final product
+
+
+
+### Resources used to help with this project
 
 creating a canvas: https://www.w3schools.com/graphics/canvas_intro.asp
 
